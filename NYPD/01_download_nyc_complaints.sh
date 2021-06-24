@@ -1,0 +1,2 @@
+#download script for NYPD Misconduct data
+curl https://raw.githubusercontent.com/new-york-civil-liberties-union/NYPD-Misconduct-Complaint-Database-Updated/main/CCRB%20Complaint%20Database%20Raw%2004.20.2021.csv --output NYPD_data.csv
