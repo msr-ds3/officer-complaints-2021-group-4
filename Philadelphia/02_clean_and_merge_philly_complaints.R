@@ -35,4 +35,4 @@ philly_sam_data <- philly_sam_data%>%
 
 plotting_data <- full_join(combined_philly_data, philly_sam_data, by = c('date_received','officer_id','complaint_id'))
 
-save(plotting_data, file = 'Philly_data')
+save(plotting_data, file = 'Philly_data.RData')
