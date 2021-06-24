@@ -1,0 +1,6 @@
+#code to download Chicago data
+wget https://raw.githubusercontent.com/invinst/chicago-police-data/master/data/unified_data/complaints/complaints-complaints.csv.gz
+wget https://raw.githubusercontent.com/invinst/chicago-police-data/master/data/unified_data/complaints/complaints-accused.csv.gz
+#unzip the files
+gunzip complaints-complaints.csv.gz
+gunzip complaints-accused.csv.gz
